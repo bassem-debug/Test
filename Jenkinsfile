@@ -5,8 +5,7 @@ pipeline {
             steps {
                 sh 'python --version'
                 print("bassem")
-                sh script.py
-                
+                python 'script.py'                
             }
         }
     }
