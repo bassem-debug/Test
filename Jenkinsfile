@@ -1,6 +1,6 @@
 pipeline {
     agent { docker {
-         image 'python:latest' 
+      FROM image 'python:latest' 
          args '-v /c:/program files (x86)/jenkins/jobs/myfirstpipeline/workspace/:/c:/program files (x86)/jenkins/jobs/myfirstpipeline/workspace/'
    
             }
