@@ -1,7 +1,7 @@
 pipeline {
     agent { docker {
          image 'python:3.5.1' 
-         args '-v C:/Program Files (x86)/Jenkins/jobs/MyfirstPipeline/workspace/'
+         args '-v c:/program files (x86)/jenkins/jobs/myfirstpipeline/workspace/'
    
             }
           }
