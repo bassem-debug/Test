@@ -5,7 +5,8 @@ pipeline {
             steps {
                 sh 'python --version'
                 print("bassem")
-                sh 'pwd'                
+                sh '/var/lib/jenkins/workspace/pipe/script.py'
+'                
             }
         }
     }
