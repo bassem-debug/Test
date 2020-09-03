@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh 'python --version'
                 print("bassem")
-                sh 'pipe/script.py'                
+                sh 'pwd'                
             }
         }
     }
